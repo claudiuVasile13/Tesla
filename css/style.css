@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html, #content {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-image: url("https://assets.about.me/background/users/t/e/s/teslianos_1362843573_5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#bio {
+  height: 100%;
+/*   border: 1px solid red; */
+  padding: 0;
+}
+
+#box {
+  background-color: rgba(255, 255, 255, .3);
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+#box h3 {
+  color: #141414;
+  font-family: Chewy;
+  letter-spacing: 2px;
+/*   border: 1px solid red; */
+}
+
+#box ul {
+  margin-top: 30px;
+  height: 80%;
+  overflow: auto;
+  padding: 20px;;
+  display: block;
+  text-align: left;
+}
+
+#box ul li {
+  margin-top: 10px;
+  color: #000;
+  font-family: Courgette;
+}
+
+#box p {
+  font-size: 18px;
+  font-family: Chewy;
+  color: #141414;
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+}
+
+a {
+  color: #000;
+}
+
+@media screen and (max-height: 600px) {
+  #content {
+    min-height: 100%;
+    height: auto;
+  }
+  
+  #box {
+    width: 100%;
+  }
+  
+  #box ul{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 40px;
+  }  
+}
+
+@media screen and (max-width: 1200px) {
+  
+  
+  #box {
+    width: 100%;
+  }
+  
+  #box ul{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 20px;
+  }  
+}
